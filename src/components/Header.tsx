@@ -1,6 +1,7 @@
 import React from 'react';
 import CoverImage from '../images/background-image.jpg';
 import ProfileImage from '../images/profile-image.jpg';
+import { FaTwitter, FaGithub } from 'react-icons/fa';
 
 export const Header = () => {
   return (
@@ -19,7 +20,16 @@ export const Header = () => {
             <h1 className="title-text">Ryoma Arisawa</h1>
             <h3 className="title-text">Engineer</h3>
             <ul className="social-icons">
-              <li className="icon-link">{/* TODO */}</li>
+              <li className="icon-link">
+                <a href="https://twitter.com/kusakab62617478">
+                  <FaTwitter color="white" size="2rem" />
+                </a>
+              </li>
+              <li className="icon-link">
+                <a href="https://github.com/RyomaArisawa">
+                  <FaGithub color="white" size="2rem" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
