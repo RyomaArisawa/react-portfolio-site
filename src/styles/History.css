@@ -1,0 +1,8 @@
+.history-container {
+  height: 600px;
+  overflow: auto;
+  margin-bottom: 70px;
+}
+.date {
+  color: #fff;
+}

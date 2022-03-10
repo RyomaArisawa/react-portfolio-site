@@ -8,8 +8,9 @@ import {
 } from '../reducers/skillReducers';
 import { LanguageObj } from '../types/types';
 import { requestStates } from '../consts/consts';
+import '../styles/Skills.css';
 
-export const Skills = () => {
+export const Skills: React.VFC = () => {
   const [state, dispatch] = useReducer(skillReducer, initialState);
 
   useEffect(() => {
@@ -81,6 +82,7 @@ export const Skills = () => {
                 <Circle
                   animate
                   progress={converseCountToPercentage(item.count)}
+                  textColor="#fff"
                 />
               </div>
             ))}

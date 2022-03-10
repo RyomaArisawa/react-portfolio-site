@@ -1,6 +1,7 @@
 import React from 'react';
+import '../styles/Contact.css';
 
-export const Contact = () => {
+export const Contact: React.VFC = () => {
   return (
     <div id="contact" className="contact">
       <div className="container">

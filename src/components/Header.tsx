@@ -2,8 +2,9 @@ import React from 'react';
 import CoverImage from '../images/background-image.jpg';
 import ProfileImage from '../images/profile-image.jpg';
 import { FaTwitter, FaGithub } from 'react-icons/fa';
+import '../styles/Header.css';
 
-export const Header = () => {
+export const Header: React.VFC = () => {
   return (
     <header
       className="main-cover"
