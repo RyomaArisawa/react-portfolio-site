@@ -19,7 +19,7 @@ export const Products: React.VFC = () => {
     {
       id: 0,
       title: 'Portfolio',
-      desc: '自己紹介ページが欲しいと思って作成しました.',
+      desc: '自己紹介ページが欲しいと思って作成しました。',
       img: PortfolioImage,
       techs: [
         'devicon-react-original',

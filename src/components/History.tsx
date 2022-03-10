@@ -58,7 +58,7 @@ export const History: React.VFC = () => {
     },
     {
       id: 5,
-      date: '2021-10 〜 2021-03',
+      date: '2021-10 〜 2022-03',
       title: 'React Webアプリケーション開発',
       eventDesc: 'ReactでSPA開発を経験',
       isShowIcon: true,
@@ -66,6 +66,7 @@ export const History: React.VFC = () => {
       iconColor: '#fff',
     },
   ];
+
   return (
     <div id="history">
       <div className="container">
