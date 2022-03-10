@@ -1,6 +1,6 @@
 import axios from 'axios';
 import Circle from 'react-circle';
-import React, { useEffect, useReducer, useState } from 'react';
+import React, { useEffect, useReducer } from 'react';
 import {
   actionTypes,
   initialState,
@@ -10,7 +10,6 @@ import { LanguageObj } from '../types/types';
 import { requestStates } from '../consts/consts';
 
 export const Skills = () => {
-  const [githubData, setGithubData] = useState<LanguageObj[]>();
   const [state, dispatch] = useReducer(skillReducer, initialState);
 
   useEffect(() => {

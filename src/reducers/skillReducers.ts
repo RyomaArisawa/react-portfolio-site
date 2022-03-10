@@ -1,6 +1,5 @@
 import { SkillState, SkillAction } from './../types/types';
 import { requestStates } from '../consts/consts';
-import { ActionType } from '../types/types';
 
 export const actionTypes = {
   initial: 'INITIAL',
