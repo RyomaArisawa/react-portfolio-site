@@ -10,7 +10,6 @@ import {
   Typography,
 } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import DesktopMacIcon from '@mui/icons-material/DesktopMac';
 import HouseImage from '../images/house-marketplage-img.png';
 import PortfolioImage from '../images/portfolio-img.png';
 import '../styles/Products.css';
