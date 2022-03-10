@@ -67,6 +67,7 @@ export const Skills = () => {
       <div className="container">
         <div className="heading">
           <h2>Skills</h2>
+          <p>Rating of Github Projects</p>
         </div>
         <div className="skills-container">
           {state.requestState === requestStates.loading && (
