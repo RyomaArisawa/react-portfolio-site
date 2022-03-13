@@ -19,7 +19,7 @@ export const Header: React.VFC = () => {
               style={{ backgroundImage: `url(${ProfileImage})` }}
             ></div>
             <h1 className="title-text">Ryoma Arisawa</h1>
-            <h3 className="title-text">Engineer</h3>
+            <h3 className="title-text">Web Engineer</h3>
             <ul className="social-icons">
               <li className="icon-link">
                 <a href="https://twitter.com/kusakab62617478">
