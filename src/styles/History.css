@@ -6,3 +6,8 @@
 .date {
   color: #fff;
 }
+@media only screen and (max-width: 1170px) {
+  .date {
+    color: #3a3a3f;
+  }
+}
